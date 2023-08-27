@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-26 17:27:55.778411",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "openai_api_key",
+  "langchain_api_key",
+  "langchain_project"
+ ],
+ "fields": [
+  {
+   "fieldname": "openai_api_key",
+   "fieldtype": "Data",
+   "label": "OpenAI API Key"
+  },
+  {
+   "fieldname": "langchain_api_key",
+   "fieldtype": "Data",
+   "label": "Langchain API Key"
+  },
+  {
+   "fieldname": "langchain_project",
+   "fieldtype": "Data",
+   "label": "Langchain Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-26 17:27:55.778411",
+ "modified_by": "Administrator",
+ "module": "Cult of the Carrot",
+ "name": "Cult Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
