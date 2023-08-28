@@ -10,15 +10,17 @@
   "title",
   "summary",
   "ingredients",
-  "instructions"
+  "instructions",
+  "ai_parameters_section",
+  "prompt",
+  "llm_response"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Title",
-   "reqd": 1
+   "label": "Title"
   },
   {
    "fieldname": "summary",
@@ -36,11 +38,28 @@
    "fieldtype": "Table",
    "label": "Instructions",
    "options": "Recipe Instruction"
+  },
+  {
+   "fieldname": "prompt",
+   "fieldtype": "Text",
+   "label": "Prompt",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "ai_parameters_section",
+   "fieldtype": "Section Break",
+   "label": "AI Parameters"
+  },
+  {
+   "fieldname": "llm_response",
+   "fieldtype": "Text",
+   "label": "LLM Response"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-26 19:36:27.260282",
+ "modified": "2023-08-27 00:46:08.294827",
  "modified_by": "Administrator",
  "module": "Cult of the Carrot",
  "name": "Recipe",
@@ -60,9 +79,9 @@
   }
  ],
  "quick_entry": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1,
- "track_views": 1
+ "title_field": "title"
 }

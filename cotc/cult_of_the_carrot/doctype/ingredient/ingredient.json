@@ -20,7 +20,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-26 14:21:53.412567",
+ "modified": "2023-08-27 00:41:05.139202",
  "modified_by": "Administrator",
  "module": "Cult of the Carrot",
  "name": "Ingredient",
@@ -39,7 +39,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "ingredient_name"
 }
